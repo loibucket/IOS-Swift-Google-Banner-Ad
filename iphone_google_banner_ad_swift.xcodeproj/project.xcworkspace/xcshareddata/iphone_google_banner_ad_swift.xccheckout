@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D83AC49D-189A-4E0F-89A5-17B0B41B4AA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iphone_google_banner_ad_swift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9042F1103AFD085EB18AB3A0D934AACC267BD603</key>
+		<string>https://github.com/loibucket/iphone_google_banner_ad_swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iphone_google_banner_ad_swift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9042F1103AFD085EB18AB3A0D934AACC267BD603</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/loibucket/iphone_google_banner_ad_swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9042F1103AFD085EB18AB3A0D934AACC267BD603</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9042F1103AFD085EB18AB3A0D934AACC267BD603</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iphone_google_banner_ad_swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

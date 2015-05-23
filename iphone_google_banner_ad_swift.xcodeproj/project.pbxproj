@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82535FC51B10E22700D9CFC8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FC31B10E22700D9CFC8 /* GoogleMobileAds.framework */; };
+		82535FC91B10E26600D9CFC8 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FC71B10E26600D9CFC8 /* libAdIdAccess.a */; };
+		82535FCA1B10E26600D9CFC8 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FC81B10E26600D9CFC8 /* libGoogleAnalyticsServices.a */; };
+		82535FCC1B10E2AA00D9CFC8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FCB1B10E2AA00D9CFC8 /* AdSupport.framework */; };
+		82535FCE1B10E2B500D9CFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FCD1B10E2B500D9CFC8 /* Foundation.framework */; };
+		82535FD01B10E2BF00D9CFC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FCF1B10E2BF00D9CFC8 /* UIKit.framework */; };
+		82535FD21B10E2C800D9CFC8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FD11B10E2C800D9CFC8 /* CoreData.framework */; };
+		82535FD41B10E2D300D9CFC8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FD31B10E2D300D9CFC8 /* SystemConfiguration.framework */; };
+		82535FD61B10E2E300D9CFC8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FD51B10E2E300D9CFC8 /* libz.dylib */; };
+		82535FD81B10E2F200D9CFC8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82535FD71B10E2F200D9CFC8 /* libsqlite3.dylib */; };
+		82535FF41B10FD5000D9CFC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82535FE91B10FD5000D9CFC8 /* AppDelegate.swift */; };
+		82535FF51B10FD5000D9CFC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82535FEA1B10FD5000D9CFC8 /* LaunchScreen.xib */; };
+		82535FF61B10FD5000D9CFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82535FEC1B10FD5000D9CFC8 /* Main.storyboard */; };
+		82535FF71B10FD5000D9CFC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82535FEE1B10FD5000D9CFC8 /* Images.xcassets */; };
+		82535FF91B10FD5000D9CFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82535FF01B10FD5000D9CFC8 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82535F9D1B10E0B000D9CFC8 /* iphone_google_banner_ad_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iphone_google_banner_ad_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82535FC31B10E22700D9CFC8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.1.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		82535FC71B10E26600D9CFC8 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdIdAccess.a; path = "GoogleMobileAdsSdkiOS-7.1.0/libAdIdAccess.a"; sourceTree = "<group>"; };
+		82535FC81B10E26600D9CFC8 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = "GoogleMobileAdsSdkiOS-7.1.0/libGoogleAnalyticsServices.a"; sourceTree = "<group>"; };
+		82535FCB1B10E2AA00D9CFC8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		82535FCD1B10E2B500D9CFC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82535FCF1B10E2BF00D9CFC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82535FD11B10E2C800D9CFC8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82535FD31B10E2D300D9CFC8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		82535FD51B10E2E300D9CFC8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		82535FD71B10E2F200D9CFC8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		82535FDA1B10E3EE00D9CFC8 /* iphone_google_banner_ad_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iphone_google_banner_ad_swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		82535FDE1B10E45E00D9CFC8 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		82535FDF1B10E45E00D9CFC8 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		82535FE01B10E45E00D9CFC8 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		82535FE11B10E45E00D9CFC8 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		82535FE21B10E45E00D9CFC8 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		82535FE31B10E45E00D9CFC8 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		82535FE41B10E45E00D9CFC8 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		82535FE51B10E45E00D9CFC8 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		82535FE61B10E45E00D9CFC8 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		82535FE71B10E45E00D9CFC8 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		82535FE91B10FD5000D9CFC8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82535FEB1B10FD5000D9CFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82535FED1B10FD5000D9CFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82535FEE1B10FD5000D9CFC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82535FEF1B10FD5000D9CFC8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82535FF01B10FD5000D9CFC8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82535F9A1B10E0B000D9CFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82535FD81B10E2F200D9CFC8 /* libsqlite3.dylib in Frameworks */,
+				82535FD61B10E2E300D9CFC8 /* libz.dylib in Frameworks */,
+				82535FD41B10E2D300D9CFC8 /* SystemConfiguration.framework in Frameworks */,
+				82535FD21B10E2C800D9CFC8 /* CoreData.framework in Frameworks */,
+				82535FD01B10E2BF00D9CFC8 /* UIKit.framework in Frameworks */,
+				82535FCE1B10E2B500D9CFC8 /* Foundation.framework in Frameworks */,
+				82535FCC1B10E2AA00D9CFC8 /* AdSupport.framework in Frameworks */,
+				82535FC51B10E22700D9CFC8 /* GoogleMobileAds.framework in Frameworks */,
+				82535FC91B10E26600D9CFC8 /* libAdIdAccess.a in Frameworks */,
+				82535FCA1B10E26600D9CFC8 /* libGoogleAnalyticsServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82535F941B10E0AF00D9CFC8 = {
+			isa = PBXGroup;
+			children = (
+				82535FDA1B10E3EE00D9CFC8 /* iphone_google_banner_ad_swift-Bridging-Header.h */,
+				82535FDD1B10E45E00D9CFC8 /* Library */,
+				82535FD71B10E2F200D9CFC8 /* libsqlite3.dylib */,
+				82535FD51B10E2E300D9CFC8 /* libz.dylib */,
+				82535FD31B10E2D300D9CFC8 /* SystemConfiguration.framework */,
+				82535FD11B10E2C800D9CFC8 /* CoreData.framework */,
+				82535FCF1B10E2BF00D9CFC8 /* UIKit.framework */,
+				82535FCD1B10E2B500D9CFC8 /* Foundation.framework */,
+				82535FCB1B10E2AA00D9CFC8 /* AdSupport.framework */,
+				82535FC71B10E26600D9CFC8 /* libAdIdAccess.a */,
+				82535FC81B10E26600D9CFC8 /* libGoogleAnalyticsServices.a */,
+				82535FC31B10E22700D9CFC8 /* GoogleMobileAds.framework */,
+				82535F9E1B10E0B000D9CFC8 /* Products */,
+				82535FE81B10FD5000D9CFC8 /* iphone_google_banner_ad_swift */,
+			);
+			sourceTree = "<group>";
+		};
+		82535F9E1B10E0B000D9CFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82535F9D1B10E0B000D9CFC8 /* iphone_google_banner_ad_swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82535FDD1B10E45E00D9CFC8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				82535FDE1B10E45E00D9CFC8 /* GAI.h */,
+				82535FDF1B10E45E00D9CFC8 /* GAIDictionaryBuilder.h */,
+				82535FE01B10E45E00D9CFC8 /* GAIEcommerceFields.h */,
+				82535FE11B10E45E00D9CFC8 /* GAIEcommerceProduct.h */,
+				82535FE21B10E45E00D9CFC8 /* GAIEcommerceProductAction.h */,
+				82535FE31B10E45E00D9CFC8 /* GAIEcommercePromotion.h */,
+				82535FE41B10E45E00D9CFC8 /* GAIFields.h */,
+				82535FE51B10E45E00D9CFC8 /* GAILogger.h */,
+				82535FE61B10E45E00D9CFC8 /* GAITrackedViewController.h */,
+				82535FE71B10E45E00D9CFC8 /* GAITracker.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		82535FE81B10FD5000D9CFC8 /* iphone_google_banner_ad_swift */ = {
+			isa = PBXGroup;
+			children = (
+				82535FE91B10FD5000D9CFC8 /* AppDelegate.swift */,
+				82535FEA1B10FD5000D9CFC8 /* LaunchScreen.xib */,
+				82535FEC1B10FD5000D9CFC8 /* Main.storyboard */,
+				82535FEE1B10FD5000D9CFC8 /* Images.xcassets */,
+				82535FEF1B10FD5000D9CFC8 /* Info.plist */,
+				82535FF01B10FD5000D9CFC8 /* ViewController.swift */,
+			);
+			path = iphone_google_banner_ad_swift;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82535F9C1B10E0B000D9CFC8 /* iphone_google_banner_ad_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82535FBC1B10E0B000D9CFC8 /* Build configuration list for PBXNativeTarget "iphone_google_banner_ad_swift" */;
+			buildPhases = (
+				82535F991B10E0B000D9CFC8 /* Sources */,
+				82535F9A1B10E0B000D9CFC8 /* Frameworks */,
+				82535F9B1B10E0B000D9CFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iphone_google_banner_ad_swift;
+			productName = iphone_google_ads;
+			productReference = 82535F9D1B10E0B000D9CFC8 /* iphone_google_banner_ad_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82535F951B10E0AF00D9CFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Loi Cheng LLC";
+				TargetAttributes = {
+					82535F9C1B10E0B000D9CFC8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 82535F981B10E0AF00D9CFC8 /* Build configuration list for PBXProject "iphone_google_banner_ad_swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82535F941B10E0AF00D9CFC8;
+			productRefGroup = 82535F9E1B10E0B000D9CFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82535F9C1B10E0B000D9CFC8 /* iphone_google_banner_ad_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82535F9B1B10E0B000D9CFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82535FF51B10FD5000D9CFC8 /* LaunchScreen.xib in Resources */,
+				82535FF61B10FD5000D9CFC8 /* Main.storyboard in Resources */,
+				82535FF71B10FD5000D9CFC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82535F991B10E0B000D9CFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82535FF41B10FD5000D9CFC8 /* AppDelegate.swift in Sources */,
+				82535FF91B10FD5000D9CFC8 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82535FEA1B10FD5000D9CFC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82535FEB1B10FD5000D9CFC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		82535FEC1B10FD5000D9CFC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82535FED1B10FD5000D9CFC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82535FBA1B10E0B000D9CFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82535FBB1B10E0B000D9CFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82535FBD1B10E0B000D9CFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.1.0",
+				);
+				INFOPLIST_FILE = iphone_google_banner_ad_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.1.0",
+				);
+				PRODUCT_NAME = iphone_google_banner_ad_swift;
+				SWIFT_OBJC_BRIDGING_HEADER = "iphone_google_banner_ad_swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82535FBE1B10E0B000D9CFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.1.0",
+				);
+				INFOPLIST_FILE = iphone_google_banner_ad_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.1.0",
+				);
+				PRODUCT_NAME = iphone_google_banner_ad_swift;
+				SWIFT_OBJC_BRIDGING_HEADER = "iphone_google_banner_ad_swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82535F981B10E0AF00D9CFC8 /* Build configuration list for PBXProject "iphone_google_banner_ad_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82535FBA1B10E0B000D9CFC8 /* Debug */,
+				82535FBB1B10E0B000D9CFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82535FBC1B10E0B000D9CFC8 /* Build configuration list for PBXNativeTarget "iphone_google_banner_ad_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82535FBD1B10E0B000D9CFC8 /* Debug */,
+				82535FBE1B10E0B000D9CFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82535F951B10E0AF00D9CFC8 /* Project object */;
+}
